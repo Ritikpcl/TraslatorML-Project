@@ -1,0 +1,65 @@
+
+
+.main-section{
+    background-image: url('background.png'); 
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(91, 91, 91);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.input-section, .output-section{
+    display: flex;
+    flex-direction: column;
+}
+
+.input-section > h2, .output-section > h2{
+    background-color: #0f0e1b;
+    color: #ff6565b5;
+    padding: 5px;
+    text-align: center;
+    border-radius: 25px;
+}
+
+.input-section > textarea{
+    height: 400px;
+    width : 500px;
+    border-radius: 20px;
+    resize: none;
+    padding: 10px;
+    border: 3px solid #FF6565;
+    outline: none;
+    background-color: #1D1B34;
+    color: #ff6565ca;
+    font-size: 20px;
+}
+
+.input-section > button, .output-section > button{
+    margin-top: 10px;
+    padding: 10px 0px;
+    border-radius: 15px;
+    border:1px solid #FF6565;
+    background: transparent;
+    color: #FF6565;
+    font-size: 20px;
+}
+
+.input-section > button:hover, .output-section > button:hover{
+    cursor: pointer;
+    background-color: #FF6565;
+    color: #1D1B34;
+}
+
+.output-section > div{
+    height: 400px;
+    width : 500px;
+    border-radius: 20px;
+    padding: 10px;
+    border: 3px solid #FF6565;
+    background-color: #1D1B34;
+    color: #ff6565ca;
+    font-size: 20px;
+}

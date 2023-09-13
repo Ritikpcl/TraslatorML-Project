@@ -1,0 +1,10 @@
+.footbar{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right : 0;
+    color: #11101e;
+    /* color: #ff6565d6; */
+    background-color:#cb6262;
+    text-align: center;
+}

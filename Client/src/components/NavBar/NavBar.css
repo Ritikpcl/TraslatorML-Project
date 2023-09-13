@@ -1,0 +1,11 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-bottom: 100px;
+    text-align: center;
+    color: #11101e;
+    /* color: #ff6565d6; */
+    background-color:#cb6262;
+}
